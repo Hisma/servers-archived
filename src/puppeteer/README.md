@@ -1,3 +1,43 @@
+# @hisma/server-puppeteer
+
+> Fork and update (v0.6.3) of the original `@modelcontextprotocol/server-puppeteer` MCP server for browser automation using Puppeteer.
+
+This package provides a Model Context Protocol (MCP) server implementation to drive headless Chrome via Puppeteer. It is a direct fork and version bump of the archived `@modelcontextprotocol/server-puppeteer` (v0.6.2), now maintained under the `hisma` namespace.
+
+## 📦 Installation
+
+Install the latest release from npm:
+
+```bash
+npm install @hisma/server-puppeteer@0.6.3
+```
+
+## 🚀 Usage
+
+Run the server with Node:
+
+```bash
+npx mcp-server-puppeteer
+```
+
+Or in Docker (example):
+
+```bash
+docker run --pull=always --name puppeteer -i --rm --init -e DOCKER_CONTAINER=true hisma/server-puppeteer:0.6.3
+```
+
+The server listens on port 8080 by default and speaks the MCP JSON-RPC protocol over stdin/stdout or TCP when configured.
+
+## 🔗 Repository & Homepage
+
+* **Repository:** [https://github.com/Hisma/servers-archived.git](https://github.com/Hisma/servers-archived.git)
+* **Homepage:** [https://github.com/Hisma/servers-archived/tree/main/src/puppeteer](https://github.com/Hisma/servers-archived/tree/main/src/puppeteer)
+
+---
+
+*Maintained by Richard Meyer (`hisma`) under the MIT license.*
+
+
 # Puppeteer
 
 A Model Context Protocol server that provides browser automation capabilities using Puppeteer. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.
