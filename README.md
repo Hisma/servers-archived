@@ -1,10 +1,8 @@
-# Model Context Protocol servers (ARCHIVED)
-
-⚠️ **IMPORTANT: This repository is archived and no longer maintained.**
+# Model Context Protocol servers Unofficial Servers Maintained by Richard Meyer
 
 ## Looking for MCP servers?
 
-This repository contains archived reference implementations that are no longer maintained.
+This is a fork of archived MCP servers. Most are no longer maintained, but the Puppeteer fork in `src/puppeteer/` is actively maintained by Richard Meyer and more may be updated over time.
 
 **For the current, actively maintained MCP servers, please visit:**
 
@@ -18,29 +16,29 @@ This repository contains historical reference implementations for the [Model Con
 
 **NO SECURITY GUARANTEES ARE PROVIDED FOR THESE ARCHIVED SERVERS.**
 
-- These servers are no longer maintained
-- No security updates or bug fixes will be provided
-- Use at your own risk
-- For production use, please refer to the actively maintained servers repository linked above
+* These servers are no longer maintained
+* No security updates or bug fixes will be provided
+* Use at your own risk
+* For production use, please refer to the actively maintained servers repository linked above
 
 ## Archived Servers
 
 The following servers are included in this archive for historical reference:
 
-- AWS KB Retrieval
-- Brave Search
-- EverArt
-- Git
-- GitHub
-- GitLab
-- Google Drive
-- Google Maps
-- PostgreSQL
-- Puppeteer
-- Redis
-- Sentry
-- Slack
-- SQLite
+* AWS KB Retrieval
+* Brave Search
+* EverArt
+* Git
+* GitHub
+* GitLab
+* Google Drive
+* Google Maps
+* PostgreSQL
+* Puppeteer (fork maintained by Richard Meyer; see [src/puppeteer/README.md](src/puppeteer/README.md))
+* Redis
+* Sentry
+* Slack
+* SQLite
 
 ## Contributing
 
