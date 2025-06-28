@@ -1,12 +1,15 @@
 {
-  "name": "@modelcontextprotocol/server-puppeteer",
-  "version": "0.6.2",
-  "description": "MCP server for browser automation using Puppeteer",
+  "name": "@hisma/server-puppeteer",
+  "version": "0.6.3",
+  "description": "Fork and update (v0.6.3) of the original @modelcontextprotocol/server-puppeteer MCP server for browser automation using Puppeteer.",
+  "author": "Richard Meyer",
   "license": "MIT",
-  "author": "Anthropic, PBC (https://anthropic.com)",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
-  "type": "module",
+  "keywords": ["mcp", "puppeteer", "hisma"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hisma/servers-archived.git"
+  },
+  "homepage": "https://github.com/Hisma/servers-archived/tree/main/src/puppeteer",
   "bin": {
     "mcp-server-puppeteer": "dist/index.js"
   },
@@ -19,11 +22,11 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.0.1",
-    "puppeteer": "^23.4.0"
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "puppeteer": "^24.11.0"
   },
   "devDependencies": {
-    "shx": "^0.3.4",
-    "typescript": "^5.6.2"
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
   }
 }
