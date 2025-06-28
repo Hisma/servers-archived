@@ -1,7 +1,7 @@
 {
   "name": "@hisma/server-puppeteer",
-  "version": "0.6.3",
-  "description": "Fork and update (v0.6.3) of the original @modelcontextprotocol/server-puppeteer MCP server for browser automation using Puppeteer.",
+  "version": "0.6.4",
+  "description": "Fork and update (v0.6.4) of the original @modelcontextprotocol/server-puppeteer MCP server for browser automation using Puppeteer.",
   "author": "Richard Meyer",
   "license": "MIT",
   "keywords": ["mcp", "puppeteer", "hisma"],

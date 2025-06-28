@@ -410,8 +410,8 @@ async function handleToolCall(name: string, args: any): Promise<CallToolResult> 
 
 const server = new Server(
   {
-    name: "example-servers/puppeteer",
-    version: "0.1.0",
+    name: "hisma/server-puppeteer",
+    version: "0.6.3",
   },
   {
     capabilities: {
